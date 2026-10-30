@@ -1,1 +1,2602 @@
-.tcul-feature-card,.tcul-industries-section,.tcul-industry-card,.tcul-industry-img-box{overflow:hidden;position:relative}.tcul-core-features-section .row,.tcul-hire-grid{--bs-gutter-x:0!important;--bs-gutter-y:0!important}@media (min-width:1200px){.navbar-expand-xl .navbar-nav .nav-link{color:#fff}.header-sticky-on .navbar-expand-xl .navbar-nav .nav-link{color:#000}}@media (max-width:1199.98px){.navbar-expand-xl .navbar-collapse{background:#fff!important;border-radius:.2rem!important;box-shadow:0 16px 36px rgba(0,0,0,.25)!important;padding:12px 0 20px!important}.navbar-expand-xl .navbar-collapse .navbar-nav .nav-item{border-bottom:1px solid rgba(0,0,0,.08)!important;padding:10px 24px!important}.navbar-expand-xl .navbar-collapse .navbar-nav .nav-item:last-child{border-bottom:none!important}.navbar-expand-xl .navbar-collapse .navbar-nav .nav-link{color:#111827!important;font-weight:600!important;font-size:1.05rem!important;display:block!important;transition:color .2s,transform .2s!important}.navbar-expand-xl .navbar-collapse .navbar-nav .nav-link.active,.navbar-expand-xl .navbar-collapse .navbar-nav .nav-link:focus,.navbar-expand-xl .navbar-collapse .navbar-nav .nav-link:hover{color:#09b850!important;transform:translateX(4px)}}.header-sticky-on .tcul-navbar-logo-sticky,.tcul-navbar-logo-default{display:block!important}.header-sticky-on .tcul-navbar-logo-default,.tcul-navbar-logo-sticky,.tcul-service-overlay{display:none!important}.header-sticky-on .navbar-toggler-animation span{background-color:#000!important}.tcul-header-btn{padding:8px 16px!important}.tcul-banner-card{position:relative!important;min-height:580px!important;height:600px!important}@media (min-width:1400px){.tcul-banner-card{min-height:600px!important;height:630px!important}}@media (min-width:1200px) and (max-width:1399.98px){.tcul-banner-card{min-height:570px!important;height:590px!important}}@media (min-width:992px) and (max-width:1199.98px){.tcul-banner-card{min-height:520px!important;height:540px!important}}@media (max-width:991.98px){.tcul-banner-card,.tcul-banner-content-wrap,.tcul-banner-content-wrap>.container{padding-bottom:0!important;margin-bottom:0!important}.tcul-banner-card,.tcul-banner-content-wrap,.tcul-banner-content-wrap .row{margin-bottom:0!important}.tcul-banner-badges-wrapper,.tcul-banner-heading{margin-left:auto!important;margin-right:auto!important}.tcul-banner-card{min-height:auto!important;height:auto!important;display:flex!important;flex-direction:column!important;justify-content:flex-end!important}.tcul-banner-content-wrap{padding-top:5.5rem!important;flex:1 0 auto!important;display:flex!important;flex-direction:column!important;justify-content:space-between!important}.tcul-banner-col{text-align:center!important;display:flex!important;flex-direction:column!important;align-items:center!important}.tcul-banner-heading{text-align:center!important;margin-bottom:1.25rem!important}.tcul-banner-btn-wrapper{display:flex!important;justify-content:center!important;align-items:center!important;flex-wrap:wrap!important;gap:12px!important;width:100%!important;margin-bottom:1.25rem!important}.tcul-banner-badges-wrapper{display:flex!important;justify-content:center!important;align-items:center!important;flex-wrap:wrap!important;gap:12px!important;margin-bottom:.5rem!important}}.tcul-banner-heading,.tcul-banner-heading-placeholder{font-size:clamp(2.35rem, 4.3vw, 3.85rem)!important;font-weight:700!important;line-height:1.15!important;letter-spacing:-.025em!important;margin-bottom:1.5rem!important}.tcul-banner-overlay{background:linear-gradient(90deg,rgba(7,11,20,.94) 0,rgba(7,11,20,.86) 38%,rgba(7,11,20,.48) 72%,rgba(7,11,20,.2) 100%),linear-gradient(180deg,rgba(4,7,14,.75) 0,rgba(4,7,14,.1) 40%,rgba(4,7,14,.5) 100%)!important}.tcul-banner-heading{color:#fff!important}.tcul-banner-static-overlay{pointer-events:none!important}.tcul-banner-heading-placeholder{visibility:hidden!important;pointer-events:none!important;user-select:none!important}.tcul-banner-btn-spacer{height:52px;margin-bottom:1.25rem;visibility:hidden;pointer-events:none}.tcul-banner-btn-container{pointer-events:auto!important;margin-bottom:0}.tcul-banner-action-btn{pointer-events:auto!important;display:inline-flex!important;align-items:center!important;gap:8px!important;box-shadow:0 4px 16px rgba(9,184,80,.35)!important;transition:.25s!important}.tcul-banner-action-btn:hover{box-shadow:0 8px 24px rgba(9,184,80,.45)!important}.tcul-banner-badges-wrapper{display:inline-flex;flex-wrap:wrap;align-items:center;gap:14px;margin-top:.25rem;margin-bottom:1rem}.tcul-rating-btn{display:inline-flex;align-items:center;gap:11px;background:#fff;padding:7px 18px;border-radius:.2rem;box-shadow:0 5px 18px rgba(0,0,0,.22);border:1px solid rgba(255,255,255,.9);transition:.25s ease-in-out;cursor:pointer;user-select:none;text-decoration:none!important}.tcul-rating-btn:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,.28);background:#fff}.tcul-rating-icon{display:flex;align-items:center;justify-content:center;flex-shrink:0}.tcul-rating-icon svg{display:block;width:24px;height:24px}.tcul-jd-badge{display:inline-flex;align-items:center;justify-content:center;width:38px;height:38px;background:#edf4fe;border-radius:50%;font-weight:800;font-size:25px;line-height:1;letter-spacing:-.5px}.tcul-jd-j{color:#f37023}.tcul-jd-d{color:#0076d7}.tcul-rating-info{display:flex;flex-direction:column;justify-content:center;text-align:left;line-height:1.15}.tcul-rating-top{display:flex;align-items:center;gap:5px;margin-bottom:2px}.tcul-rating-score{font-size:15px;font-weight:800;color:#111827}.tcul-rating-stars{display:inline-flex;align-items:center;gap:2px;color:#ffb800;font-size:11px}.tcul-rating-sub{font-size:11.5px;font-weight:500;color:#4b5563;letter-spacing:-.2px}.tcul-banner-mockup-bottom{position:absolute;bottom:0;right:11%;z-index:3;line-height:0;pointer-events:none}.tcul-banner-mockup-img{height:520px;max-height:85%;width:auto;display:block;vertical-align:bottom;margin-bottom:0!important;filter:drop-shadow(0 18px 36px rgba(0, 0, 0, .48));transition:.3s}@media (min-width:1400px){.tcul-banner-mockup-bottom{right:12%;bottom:-1%}.tcul-banner-mockup-img{height:540px;max-height:86%}}@media (min-width:1200px) and (max-width:1399.98px){.tcul-banner-mockup-bottom{right:10%}.tcul-banner-mockup-img{height:500px;max-height:85%}}@media (min-width:992px) and (max-width:1199.98px){.tcul-banner-mockup-bottom{right:4%}.tcul-banner-mockup-img{height:440px;max-height:82%}}@media (max-width:991.98px){.tcul-banner-btn-spacer{height:48px;margin-bottom:1rem}.tcul-banner-mockup-mobile-col{margin-top:1.5rem!important;margin-bottom:0!important;padding-bottom:0!important;padding-left:0!important;padding-right:0!important;line-height:0!important;display:flex!important;justify-content:center!important;align-items:flex-end!important}.tcul-banner-mockup-mobile-img{max-height:340px;width:auto;display:block!important;margin:0 auto!important;padding-bottom:0!important;vertical-align:bottom!important;line-height:0!important;filter:drop-shadow(0 15px 25px rgba(0, 0, 0, .4))}.swiper-pagination.swiper-pagination-line{bottom:8px!important}}.tcul-banner-persistent-overlay{position:absolute!important;top:0!important;left:0!important;width:100%!important;height:100%!important;z-index:5!important;pointer-events:none!important}.tcul-banner-persistent-overlay .tcul-banner-action-btn,.tcul-banner-persistent-overlay .tcul-rating-btn{pointer-events:auto!important;border-radius:.2rem!important}.tcul-mobile-cta-section{display:none}@media (max-width:991.98px){.tcul-mobile-btn,.tcul-mobile-rating-btn{text-decoration:none!important;transition:.2s!important;-webkit-tap-highlight-color:transparent!important}.tcul-banner-persistent-overlay{display:none!important}.tcul-mobile-cta-section{display:block!important;background:#e6f8ed80!important;padding:1.25rem .75rem!important;position:relative;z-index:2;border-bottom:1px solid rgba(0,0,0,.05)!important}.tcul-mobile-btn,.tcul-mobile-btn-wrapper{display:flex!important;width:100%!important}.tcul-mobile-cta-section .container{max-width:480px!important;padding-left:8px!important;padding-right:8px!important}.tcul-mobile-btn-wrapper{flex-direction:column!important;align-items:stretch!important;gap:10px!important;margin-bottom:.75rem!important}.tcul-mobile-btn{min-width:100%!important;max-width:100%!important;height:48px!important;min-height:48px!important;align-items:center!important;justify-content:center!important;gap:8px!important;background:#09b850!important;border:1px solid #09b850!important;color:#fff!important;font-weight:600!important;font-size:.9rem!important;padding:10px 16px!important;border-radius:.2rem!important;text-align:center!important;line-height:1.25!important}.tcul-mobile-btn:hover{background:#079641!important;border-color:#079641!important;color:#fff!important}.tcul-mobile-btn:active{transform:scale(.98)!important}.tcul-mobile-btn i{font-size:.9rem!important;flex-shrink:0!important}.tcul-mobile-btn-text{display:inline-block!important;line-height:1.2!important}.tcul-mobile-badges-wrapper{display:flex!important;justify-content:center!important;align-items:stretch!important;gap:10px!important;width:100%!important}.tcul-mobile-rating-btn{flex:1 1 0!important;width:50%!important;max-width:50%!important;min-width:0!important;min-height:52px!important;display:inline-flex!important;align-items:center!important;gap:8px!important;background:#fff!important;border:1px solid rgba(0,0,0,.08)!important;border-radius:.2rem!important;padding:7px 8px!important;box-shadow:0 3px 12px rgba(0,0,0,.05)!important;justify-content:center!important}.tcul-mobile-rating-btn:hover{border-color:rgba(9,184,80,.35)!important;box-shadow:0 4px 14px rgba(0,0,0,.08)!important}.tcul-mobile-rating-btn:active{transform:scale(.97)!important}.tcul-mobile-rating-btn .tcul-rating-score{font-size:.95rem!important;font-weight:700!important;color:#111827!important}.tcul-mobile-rating-btn .tcul-rating-stars{font-size:8.5px!important;color:#f59e0b!important;gap:1.5px!important;display:inline-flex!important}.tcul-mobile-rating-btn .tcul-rating-sub{font-size:9px!important;color:#4b5563!important;white-space:nowrap!important;display:block!important}}.tcul-footer-heading{color:#09b850!important;font-size:1.25rem;font-weight:700;letter-spacing:-.2px}.tcul-footer-subheading{color:#f3f4f6;font-size:1.05rem;font-weight:700;letter-spacing:-.2px}.tcul-footer-icon{display:inline-flex;align-items:center;justify-content:center;color:#09b850;font-size:1.2rem;flex-shrink:0}.tcul-footer-link{color:#e5e7eb!important;text-decoration:none;font-size:.95rem;font-weight:500;transition:color .2s,transform .2s;display:inline-block}.tcul-footer-link:hover{color:#09b850!important;transform:translateX(3px)}.tcul-footer-text{color:#9ca3af;font-size:.92rem;line-height:1.6}.tcul-footer-links-list li{line-height:1.4}.tcul-footer-form-card{background:#fff!important;border-radius:.2em;padding:28px 30px;box-shadow:0 15px 35px rgba(0,0,0,.35);color:#1f2937}.tcul-footer-form-title{color:#111827!important;font-size:1.35rem;font-weight:700;letter-spacing:-.3px}.tcul-footer-form-desc{color:#4b5563!important;font-size:.85rem;line-height:1.5}.tcul-footer-input{background-color:#fff!important;border:1px solid #d1d5db!important;border-radius:.2rem!important;font-size:.875rem!important;color:#1f2937!important;padding:10px 14px!important;transition:border-color .2s,box-shadow .2s}.tcul-footer-input:focus{border-color:#09b850!important;box-shadow:0 0 0 3px rgba(75,132,248,.2)!important;background-color:#fff!important;color:#111827!important}.tcul-footer-input::placeholder{color:#9ca3af!important}.tcul-footer-textarea{resize:none;min-height:90px}.tcul-footer-logo{height:32px;width:auto;display:inline-block}.tcul-footer-copyright{color:#9ca3af;font-size:.9rem;font-weight:400}.tcul-footer-copyright a{color:#d1d5db;text-decoration:none;transition:color .2s}.tcul-footer-copyright a:hover{color:var(--bs-primary,#09b850)}.tcul-client-skills-section,.tcul-faq-section,.tcul-portfolio-section,.tcul-rating-section,.tcul-testimonials-section,.tcul-why-us-section{padding-top:80px;padding-bottom:80px}.tcul-rating-card{background:#fff;border:1px solid #eef2f6;border-radius:16px;padding:26px 36px;box-shadow:0 10px 30px rgba(0,0,0,.05)}.tcul-rating-item{display:flex;align-items:center;justify-content:flex-start}.tcul-rating-icon{width:38px;height:38px;object-fit:contain;flex-shrink:0}.tcul-rating-icon-jd{width:48px!important;height:48px!important}.tcul-rating-stars{display:flex;align-items:center;gap:3px;margin-bottom:2px}.tcul-rating-stars i{color:#ffb800;font-size:13px}.tcul-rating-subtext{font-size:.875rem;color:#6c757d;font-weight:500;line-height:1.2}.tcul-rating-col-divider{border-right:1px solid #eef2f6}.tcul-rating-cta-title{font-size:1.05rem;font-weight:700;color:#111827;margin-bottom:4px}.tcul-rating-cta-link{color:var(--bs-primary,#09b850);font-size:.9rem;font-weight:600;text-decoration:none;display:inline-flex;align-items:center;gap:6px;transition:.2s}.tcul-client-text,.tcul-skills-title{font-size:.95rem;font-weight:500;color:#4b5563}.tcul-rating-cta-link:hover{color:var(--bs-primary,#09b850);transform:translateX(3px)}.tcul-client-text{text-align:center!important}.tcul-client-swiper{padding-top:10px!important;padding-bottom:10px!important}.tcul-client-swiper .swiper-slide{display:flex!important;justify-content:center!important;align-items:center!important;text-align:center!important;min-height:80px!important;height:auto!important;padding:6px 4px!important}.tcul-client-logo{height:auto!important;max-height:80px!important;width:auto!important;max-width:155px!important;object-fit:contain!important;margin:0 auto!important;display:block!important;transition:opacity .25s,transform .25s!important}.tcul-client-logo:hover{opacity:1!important;transform:scale(1.06)!important}.tcul-counter-number{font-size:1.75rem;font-weight:700;color:#111827;line-height:1.1}.tcul-counter-label{font-size:.85rem;color:#6c757d;margin-top:4px}.tcul-core-features-section{padding-top:80px;padding-bottom:80px;background-color:#e6f8ed}.tcul-features-heading,.tcul-industries-heading{font-size:2.35rem;font-weight:800;color:#111827;letter-spacing:-.5px;margin-bottom:1.75rem}.inner-container-small{max-width:100%!important}.tcul-features-subtitle,.tcul-industries-subtitle{color:#6b7280;font-size:1.05rem;max-width:100%;margin-left:auto;margin-right:auto;line-height:1.6}.tcul-core-features-section .row{background:#fff;border:1px dashed #cbd5e1;border-radius:14px;overflow:hidden;margin-left:0!important;margin-right:0!important;margin-top:0!important}.tcul-core-features-section .col,.tcul-hire-col{padding:0!important;margin:0!important;display:flex}.tcul-feature-card{background:#fff;border:none!important;border-radius:0!important;box-shadow:none!important;padding:44px 38px 40px;display:flex;flex-direction:column;align-items:flex-start;text-align:left;width:100%;height:100%;transform:none!important;transition:background-color .25s}.tcul-feature-card::before,.tcul-hire-card::before{content:"";position:absolute;top:0;left:0;right:0;bottom:0;pointer-events:none;z-index:0;background-size:24px 24px;background-repeat:repeat;background-image:linear-gradient(to right,rgba(0,0,0,.055) 1px,transparent 1px),linear-gradient(to bottom,rgba(0,0,0,.055) 1px,transparent 1px);-webkit-mask-image:linear-gradient(180deg,rgba(0,0,0,1) 0%,rgba(0,0,0,0.5) 40%,rgba(0,0,0,0) 78%);mask-image:linear-gradient(180deg,rgba(0,0,0,1) 0%,rgba(0,0,0,0.5) 40%,rgba(0,0,0,0) 78%);transition:opacity .3s}.tcul-feature-card:hover,.tcul-hire-card:hover{background-color:#fafcfb}.tcul-feature-card:hover::before{opacity:1}.tcul-feature-icon-box,.tcul-feature-text,.tcul-feature-title,.tcul-hire-badge,.tcul-hire-card-text,.tcul-hire-card-title{position:relative;z-index:1}.tcul-feature-card.tcul-feature-card-active,.tcul-feature-card:hover{border:transparent!important;box-shadow:none!important;transform:none!important}.tcul-feature-icon-box{width:52px;height:52px;border-radius:8px;background:rgba(9,184,80,.12);color:#09b850;display:inline-flex;align-items:center;justify-content:center;font-size:24px;margin-bottom:22px;transition:.3s}.tcul-industry-tag,.tcul-uiux-badge{align-items:center;font-weight:700;text-transform:uppercase}.tcul-feature-card:hover .tcul-feature-icon-box,.tcul-hire-card:hover .tcul-hire-badge{background:#09b850;color:#fff;transform:scale(1.05)}.tcul-feature-title{font-size:1.2rem;font-weight:700;color:#111827;margin-bottom:10px;letter-spacing:-.2px}.tcul-feature-text,.tcul-hire-card-text{font-size:.95rem;color:#6b7280;line-height:1.6;margin-bottom:0}.tcul-industries-section{padding-top:80px;padding-bottom:80px}.tcul-industries-swiper .swiper-wrapper{-webkit-transition-timing-function:linear!important;-o-transition-timing-function:linear!important;transition-timing-function:linear!important}.tcul-industry-card{width:100%;height:380px;border-radius:.2rem;background:#111827;box-shadow:0 10px 25px rgba(0,0,0,.08);transition:transform .35s,box-shadow .35s;cursor:pointer}.tcul-industry-card:hover{transform:translateY(-6px);box-shadow:0 18px 38px rgba(0,0,0,.16)}.tcul-industry-img-box{width:100%;height:100%}.tcul-industry-img{width:100%;height:100%;object-fit:cover;object-position:center;display:block;transition:transform .6s}.tcul-industry-card:hover .tcul-industry-img{transform:scale(1.08)}.tcul-industry-gradient-overlay{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.04) 0,rgba(0,0,0,.25) 50%,rgba(0,0,0,.72) 100%);pointer-events:none;transition:opacity .3s}.tcul-industry-bottom-card{position:absolute;bottom:14px;left:14px;right:14px;background:rgba(255,255,255,.95);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-radius:.2rem;padding:14px 16px;box-shadow:0 8px 24px rgba(0,0,0,.12);border:1px solid rgba(255,255,255,.9);transition:.3s;z-index:2}.tcul-industry-card:hover .tcul-industry-bottom-card{background:#fff;box-shadow:0 12px 30px rgba(9,184,80,.2);border-color:rgba(9,184,80,.35)}.tcul-industry-tag{display:inline-flex;font-size:.75rem;letter-spacing:.5px;color:#09b850;background:rgba(9,184,80,.12);padding:4px 10px;border-radius:50px}.tcul-industry-title{font-size:1.15rem;font-weight:700;color:#111827;margin-bottom:0;letter-spacing:-.2px}.tcul-uiux-section{padding-top:80px;padding-bottom:80px;position:relative;background:#e6f8ed}.tcul-uiux-badge-wrap{display:inline-block}.tcul-uiux-badge{display:inline-flex;gap:12px;font-size:.82rem;color:#09b850;letter-spacing:2px}.tcul-uiux-badge-line{width:24px;height:2px;background:#09b850;display:inline-block;border-radius:2px}.tcul-uiux-card,.tcul-uiux-card-inner{border-radius:.2rem;transform-style:preserve-3d;background:0 0;position:relative;overflow:hidden}.tcul-uiux-heading{font-size:2.75rem;font-weight:800;color:#0f172a;letter-spacing:-.8px;line-height:1.22}.tcul-uiux-highlight{color:#09b850!important}.tcul-uiux-subtitle{color:#64748b;font-size:1.05rem;max-width:100%;line-height:1.65}.tcul-uiux-card{cursor:pointer;border:none;outline:0;box-shadow:none;opacity:1!important;filter:none!important;-webkit-filter:none!important;transition:box-shadow .4s}.tcul-uiux-card-inner,.tcul-uiux-img{filter:none!important;opacity:1!important;width:100%;outline:0}.tcul-uiux-card-inner{border:none;-webkit-filter:none!important}.tcul-uiux-img{height:auto;display:block;border-radius:.2rem;border:none;-webkit-filter:none!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important;backface-visibility:hidden;-webkit-backface-visibility:hidden;transform:translateZ(0);-webkit-transform:translateZ(0);image-rendering:-webkit-optimize-contrast}.tcul-uiux-card-inner:hover,.tcul-uiux-card:hover,.tcul-uiux-card:hover .tcul-uiux-card-inner,.tcul-uiux-card:hover .tcul-uiux-img,.tcul-uiux-img:hover{opacity:1!important;filter:none!important;-webkit-filter:none!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important}.tcul-about-section{background-color:#e6f8ed;padding-top:80px;padding-bottom:80px;position:relative}.tcul-about-image-wrapper{position:relative;max-width:520px;margin:0 auto}.tcul-services-section p,.tcul-tech-subtitle{max-width:100%;margin-left:auto;margin-right:auto}.tcul-about-main-img{width:100%;height:100%;border-radius:.2rem!important;object-fit:cover;box-shadow:0 20px 45px rgba(0,0,0,.08)!important;border:3px solid #fff;display:block}.tcul-about-floating-badge{position:absolute;bottom:-15px;right:-15px;background:#fff!important;border-radius:.2rem!important;padding:14px 20px;box-shadow:0 16px 36px rgba(0,0,0,.12)!important;border:1px solid rgba(0,0,0,.04)!important;z-index:3;min-width:220px}.tcul-about-badge-icon{width:44px;height:44px;border-radius:12px;background-color:#eafaf1;display:flex;align-items:center;justify-content:center;flex-shrink:0}.tcul-about-heading{font-size:2.25rem;font-weight:700;color:#111827;line-height:1.25;letter-spacing:-.4px}.tcul-testimonials-section,.tcul-why-us-section{background-color:#e6f8ed}.tcul-google-review-card{background:#fff!important;border:1px solid rgba(0,0,0,.07)!important;border-radius:.2rem!important;padding:1.5rem!important;box-shadow:0 4px 20px rgba(0,0,0,.04)!important;transition:transform .25s,box-shadow .25s!important}.tcul-google-review-card:hover{transform:translateY(-4px);box-shadow:0 12px 28px rgba(0,0,0,.09)!important}.tcul-review-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:.85rem}.tcul-review-user{display:flex;align-items:center;gap:12px}.tcul-review-avatar{width:42px;height:42px;border-radius:50%;object-fit:cover;flex-shrink:0}.tcul-review-author{font-size:.98rem;font-weight:700;color:#1f2937;margin-bottom:0;line-height:1.25}.tcul-review-date{display:block;font-size:.76rem;color:#6b7280;margin-top:2px;line-height:1.2}.tcul-review-google-icon{width:22px;height:22px;object-fit:contain;flex-shrink:0}.tcul-review-stars{margin-bottom:.75rem!important;padding-left:0;list-style:none;display:flex;align-items:center;gap:3px}.tcul-review-stars .list-inline-item{margin-right:0!important}.tcul-review-stars i{color:#fbbc04!important;font-size:14px}.tcul-review-text{font-size:.9rem;line-height:1.6;color:#374151;margin-bottom:0}.tcul-tech-section{padding-top:5.5rem;padding-bottom:5rem;background-color:#e6f8ed;position:relative}.tcul-tech-badge{color:#09b850!important;font-size:.82rem;font-weight:700;letter-spacing:1.5px;text-transform:uppercase}.tcul-tech-heading{font-size:2.5rem;font-weight:800;color:#111827;letter-spacing:-.5px;margin-top:0!important;margin-bottom:1.75rem}.tcul-tech-subtitle{color:#4b5563;font-size:1.05rem;line-height:1.6}.tcul-tech-card{background:#fff;border-radius:.2rem;padding:24px 14px 18px;border:1px solid rgba(0,0,0,.04);box-shadow:0 4px 16px rgba(0,0,0,.04);transition:.3s cubic-bezier(.16, 1, .3, 1);display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;cursor:default}.tcul-tech-card:hover{transform:translateY(-6px);border-color:#09b850;box-shadow:0 12px 28px rgba(9,184,80,.15)}.tcul-tech-icon-wrap{height:48px;width:48px;display:flex;align-items:center;justify-content:center;margin-bottom:12px}.tcul-tech-icon{max-height:44px;max-width:44px;width:auto;height:auto;object-fit:contain;transition:transform .3s}.tcul-tech-card:hover .tcul-tech-icon{transform:scale(1.12)}.tcul-tech-name{font-size:.95rem;font-weight:700;color:#111827;margin-bottom:2px;letter-spacing:-.2px}.tcul-service-tag,.tcul-tech-type{font-weight:600;text-transform:uppercase}.tcul-tech-type{font-size:.72rem;color:#6b7280;letter-spacing:.4px;line-height:1.2}.tcul-service-card{position:relative;height:390px;border-radius:.2rem;overflow:hidden;background-color:#141c2c;background:linear-gradient(180deg,#222d42 0,#141c2c 45%,#080c14 100%)!important;border:1px solid rgba(255,255,255,.08);box-shadow:0 10px 30px rgba(0,0,0,.3);transition:border-color .35s,box-shadow .35s;cursor:pointer}.navbar-toggler .navbar-toggler-animation span,.tcul-service-tag{background:#09b850}.tcul-service-card.tcul-card-active,.tcul-service-card:hover{border-color:rgba(9,184,80,.5)!important;box-shadow:0 16px 40px rgba(0,0,0,.5),0 0 20px rgba(9,184,80,.15)!important}.tcul-service-img-wrapper{position:absolute;top:0;left:0;width:100%;height:100%;overflow:hidden;z-index:1;-webkit-mask-image:linear-gradient(180deg,rgba(0,0,0,0.85) 0%,rgba(0,0,0,0.45) 45%,rgba(0,0,0,0) 90%);mask-image:linear-gradient(180deg,rgba(0,0,0,0.85) 0%,rgba(0,0,0,0.45) 45%,rgba(0,0,0,0) 90%)}.tcul-service-img{width:100%;height:100%;object-fit:cover;opacity:.7;transform:scale(1);transition:transform .5s cubic-bezier(.25, 1, .5, 1),opacity .3s}.tcul-service-caption{position:absolute;bottom:0;left:0;width:100%;padding:1.5rem;z-index:2;transition:opacity .3s,transform .3s,visibility .3s}.tcul-service-tag{display:inline-block;font-size:.72rem;letter-spacing:.08em;color:#fff;border:1px solid rgba(9,184,80,.25);padding:4px 10px;border-radius:.2rem;margin-bottom:.75rem}.tcul-service-title{font-size:1.18rem;font-weight:700;color:#fff;line-height:1.35;margin-bottom:.75rem}.tcul-service-hint{display:flex;align-items:center;gap:6px;font-size:.8rem;font-weight:500;color:rgba(255,255,255,.75);transition:color .2s}.tcul-service-hint-icon{font-size:.85rem;color:#09b850;transition:transform .25s}.tcul-service-card:hover .tcul-service-hint-icon{transform:translate(2px,-2px)}.tcul-service-hover-panel{position:absolute;top:0;left:0;width:100%;height:100%;z-index:3;background:rgba(11,15,23,.95);padding:1.75rem 1.5rem;display:flex;flex-direction:column;justify-content:flex-start;border-top:3px solid #09b850;opacity:0;visibility:hidden;transform:translateY(16px);pointer-events:none;transition:opacity .3s cubic-bezier(.16, 1, .3, 1),transform .3s cubic-bezier(.16, 1, .3, 1),visibility .3s}.tcul-service-card:not(:hover):not(.tcul-card-active) .tcul-service-hover-panel{opacity:0!important;visibility:hidden!important;transform:translateY(16px)!important;pointer-events:none!important}.tcul-service-card:not(:hover):not(.tcul-card-active) .tcul-service-caption{opacity:1!important;visibility:visible!important;transform:translateY(0)!important}.tcul-service-card:not(:hover):not(.tcul-card-active) .tcul-service-img{transform:scale(1)!important}.tcul-service-card.tcul-card-active .tcul-service-hover-panel,.tcul-service-card:hover .tcul-service-hover-panel{opacity:1!important;visibility:visible!important;transform:translateY(0)!important;pointer-events:auto!important}.tcul-service-card.tcul-card-active .tcul-service-caption,.tcul-service-card:hover .tcul-service-caption{opacity:0!important;visibility:hidden!important;transform:translateY(-8px)!important}.tcul-service-card.tcul-card-active .tcul-service-img,.tcul-service-card:hover .tcul-service-img{transform:scale(1.08)!important}html{scroll-behavior:smooth}[id]{scroll-margin-top:85px}.tcul-floating-actions{position:fixed;bottom:110px;right:20px;z-index:1040;display:flex;flex-direction:column;gap:12px;align-items:center}.tcul-floating-btn{width:52px;height:52px;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff!important;text-decoration:none;font-size:1.45rem;box-shadow:0 6px 18px rgba(0,0,0,.28);transition:.3s cubic-bezier(.34, 1.56, .64, 1);position:relative}.tcul-floating-btn:hover{transform:scale(1.12) translateY(-2px);box-shadow:0 10px 24px rgba(0,0,0,.35);color:#fff!important}.tcul-floating-btn-whatsapp{background-color:#25d366}.tcul-floating-btn-whatsapp:hover{background-color:#20ba5a}.tcul-floating-btn-call{background-color:#0d6efd}.tcul-floating-btn-call:hover{background-color:#0b5ed7}.tcul-floating-tooltip{position:absolute;right:64px;background:rgba(17,24,39,.94);color:#fff;font-size:.8rem;font-weight:500;padding:6px 14px;border-radius:6px;white-space:nowrap;opacity:0;pointer-events:none;transform:translateX(8px);transition:.22s;box-shadow:0 4px 14px rgba(0,0,0,.18)}.tcul-floating-btn:hover .tcul-floating-tooltip{opacity:1;transform:translateX(0)}.tcul-enquiry-modal .modal-content{border-radius:.2rem;box-shadow:0 25px 60px rgba(0,0,0,.35);background:#fff;overflow:hidden}.tcul-enquiry-modal .modal-header{padding:20px 24px 0}.tcul-enquiry-modal .btn-close{padding:10px;background-color:#f3f4f6;border-radius:50%;opacity:.8;transition:.2s}.tcul-enquiry-modal .btn-close:hover{opacity:1;background-color:#e5e7eb;transform:rotate(90deg)}.tcul-modal-form .tcul-modal-input{border:1px solid #e5e7eb;background:#f9fafb;border-radius:.2rem;padding:11px 14px;font-size:.92rem;color:#111827;transition:.2s}.tcul-modal-form .tcul-modal-input:focus{background:#fff;border-color:#09b850;box-shadow:0 0 0 3px rgba(9,184,80,.15);outline:0}.tcul-modal-form .tcul-modal-textarea{resize:none}.tcul-modal-submit-btn{background-color:#09b850!important;border-color:#09b850!important;color:#fff!important;padding:12px 24px!important;border-radius:.2rem!important;font-weight:600!important;font-size:.95rem!important;box-shadow:0 4px 14px rgba(9,184,80,.35)!important;transition:.2s!important}.tcul-approach-title,.tcul-services-section h2{font-size:2.35rem;font-weight:800;letter-spacing:-.5px;color:#111827}.tcul-modal-submit-btn:hover{background-color:#079641!important;border-color:#079641!important;transform:translateY(-2px)!important;box-shadow:0 8px 20px rgba(9,184,80,.45)!important}.tcul-services-section h2{margin-bottom:1.75rem!important;margin-top:0!important}.tcul-services-section p{color:#6b7280!important;font-size:1.05rem;line-height:1.6}.tcul-services-section{padding-top:80px!important;padding-bottom:80px!important}.navbar-toggler{border-radius:0;border-color:#09b850}a.tcul-mobile-btn-1{background-color:transparent!important;border:1px solid #09b850!important;color:#09b850!important}.tcul-approach-section{padding-top:90px;padding-bottom:90px;background-color:#fff;position:relative;overflow:visible}.tcul-approach-grid{display:grid;grid-template-columns:repeat(3,1fr);grid-gap:40px 48px;position:relative;align-items:stretch}.tcul-approach-header-block{display:flex;flex-direction:column;justify-content:center;padding:10px}.tcul-approach-title{line-height:1.25;margin-bottom:6px}.tcul-approach-title-highlight{color:#111827;display:inline-block;position:relative}.tcul-approach-swoosh{width:145px;height:18px;display:block;margin-top:4px;overflow:visible}.tcul-approach-card,.tcul-approach-card-wrap{height:100%;position:relative}.tcul-approach-swoosh .tcul-swoosh-path{stroke:#09b850;stroke-width:4.5;stroke-linecap:round}.tcul-approach-card{background:#fff;border:1px solid #edf2f7;border-radius:.2rem;padding:30px 26px;box-shadow:0 10px 30px rgba(0,0,0,.04);display:flex;flex-direction:column;transition:transform .3s cubic-bezier(.16, 1, .3, 1),box-shadow .3s;z-index:2}.tcul-approach-card:hover{transform:translateY(-5px);box-shadow:0 18px 40px rgba(0,0,0,.08)}.tcul-approach-card-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:18px}.tcul-approach-num{font-size:1.15rem;font-weight:700;color:#09b850;line-height:1;letter-spacing:-.3px}.tcul-approach-icon{width:52px;height:52px;border-radius:50%;background-color:#eafaf1;display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:transform .3s,background-color .3s}.tcul-approach-card:hover .tcul-approach-icon{transform:scale(1.08) rotate(4deg);background-color:#dcf6e7}.tcul-approach-card-title{font-size:1.2rem;font-weight:700;color:#111827;margin-bottom:10px;line-height:1.35;letter-spacing:-.3px}.tcul-approach-card-text{font-size:.92rem;color:#64748b;line-height:1.6;margin-bottom:0}.tcul-approach-arrow{position:absolute;pointer-events:none;z-index:10;overflow:visible}.tcul-approach-arrow .tcul-arrow-head,.tcul-approach-arrow .tcul-arrow-path{stroke:#09b850;stroke-width:2.8;stroke-linecap:round;stroke-linejoin:round}.tcul-approach-arrow-1,.tcul-approach-arrow-3{right:-42px;top:24%;width:58px;height:34px}.tcul-approach-arrow-2{right:-36px;top:48%;width:60px;height:145px}.tcul-approach-arrow-4{right:-46px;top:16%;width:72px;height:48px}@media (max-width:991.98px){.tcul-uiux-heading{font-size:2.15rem}.tcul-uiux-section{padding-top:4rem;padding-bottom:3rem}.tcul-about-section{padding-top:60px;padding-bottom:60px}.tcul-about-floating-badge{position:static;margin-top:15px;min-width:auto;display:inline-block}.tcul-about-heading{font-size:1.85rem}.tcul-approach-grid{grid-template-columns:repeat(2,1fr);grid-gap:28px}.tcul-approach-header-block{grid-column:span 2;text-align:center;align-items:center;min-height:auto;margin-bottom:15px}.tcul-approach-arrow{display:none!important}.tcul-approach-card-5{grid-column:span 2;max-width:500px;margin:0 auto;width:100%}}@media (max-width:767.98px){.tcul-rating-col-divider{border-right:none;border-bottom:1px solid #eef2f6;padding-bottom:1.25rem}.tcul-client-skills-section{padding-top:80px;padding-bottom:80px}.tcul-industries-section{padding-top:3.5rem;padding-bottom:2.5rem}.tcul-industry-card{height:330px}.tcul-industry-bottom-card{bottom:10px;left:10px;right:10px;padding:12px 14px}.tcul-tech-section{padding-top:3.5rem;padding-bottom:3.5rem}.tcul-tech-heading{font-size:2rem}.tcul-tech-card{padding:18px 10px 14px}.tcul-tech-icon-wrap{height:40px;width:40px;margin-bottom:10px}.tcul-tech-icon{max-height:36px;max-width:36px}.tcul-tech-name{font-size:.85rem}.tcul-tech-type{font-size:.68rem}.tcul-approach-section{padding-top:60px;padding-bottom:60px}.tcul-approach-grid{grid-template-columns:1fr;grid-gap:20px}.tcul-approach-header-block{grid-column:auto;margin-bottom:10px}.tcul-approach-title{font-size:1.85rem}.tcul-approach-card-5{grid-column:auto;max-width:none}.tcul-approach-card{padding:24px 20px;border-radius:16px}.hr-line{margin-bottom:0!important}}.tcul-banner-action-btn-1{background-color:transparent}a.about-btn-2{border:1px solid;padding:8px 16px;border-radius:.2rem}.features-btm-btn .tcul-banner-action-btn,.service-cta-btn-wrap .service-cta-btn,a.explore-btn{border-radius:.2rem}.features-btm-btn{text-align:center;margin-top:3em}.tcul-hire-developers-section{background-color:#e6f8ed;padding-top:80px;padding-bottom:80px;position:relative;overflow:hidden}.tcul-hire-card,.tcul-hire-grid{overflow:hidden;background:#fff}.tcul-hire-header{max-width:100%}.tcul-hire-eyebrow{display:inline-block;font-size:.82rem;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#606261;margin-bottom:12px}.tcul-hire-title{font-size:2.5rem;font-weight:800;color:#202124;letter-spacing:-.5px;line-height:1.25;margin-bottom:18px}.tcul-hire-subtitle{font-size:1.05rem;line-height:1.65;color:#4b5563;max-width:100%;margin:10px auto 0}.tcul-hire-grid{border:1px dashed #cbd5e1;border-radius:14px;margin:2rem 0 2.5rem!important}.tcul-hire-card{position:relative;border:none!important;border-radius:0!important;box-shadow:none!important;padding:44px 32px 38px;display:flex;flex-direction:column;align-items:flex-start;text-align:left;width:100%;height:100%;transform:none!important;transition:background-color .25s}.tcul-hire-badge{width:44px;height:44px;border-radius:8px;background:rgba(9,184,80,.12);color:#09b850;display:inline-flex;align-items:center;justify-content:center;font-size:1.05rem;font-weight:700;margin-bottom:22px;transition:.3s}.tcul-hire-card-title{font-size:1.2rem;font-weight:700;color:#111827;letter-spacing:-.2px;margin-bottom:12px;line-height:1.35}@media (min-width:992px){.tcul-banner-col,.tcul-banner-content-wrap>.container{margin-top:0!important;margin-bottom:0!important}.tcul-banner-badges-wrapper,.tcul-banner-btn-wrapper,.tcul-banner-heading{margin-left:0!important;margin-right:0!important}.tcul-banner-content-wrap{padding-top:8rem!important;justify-content:flex-start!important}.tcul-banner-mockup-mobile-col,.tcul-mobile-cta-section{display:none!important}.tcul-banner-col{text-align:left!important;display:block!important}.tcul-banner-heading{text-align:left!important;margin-bottom:2.25rem!important}.tcul-banner-btn-wrapper{display:flex!important;justify-content:flex-start!important;align-items:center!important;flex-wrap:wrap!important;gap:14px!important;margin-bottom:1.5rem!important}.tcul-banner-badges-wrapper{display:inline-flex!important;justify-content:flex-start!important}.tcul-rating-item{justify-content:center}.tcul-core-features-section .col:nth-child(3n+1),.tcul-core-features-section .col:nth-child(3n+2),.tcul-hire-grid .tcul-hire-col:not(:last-child){border-right:1px dashed #cbd5e1}.tcul-core-features-section .col:nth-child(-n+3){border-bottom:1px dashed #cbd5e1}}@media (min-width:576px) and (max-width:991.98px){.tcul-core-features-section .col:nth-child(odd),.tcul-hire-grid .tcul-hire-col:nth-child(odd){border-right:1px dashed #cbd5e1}.tcul-core-features-section .col:nth-child(-n+4),.tcul-hire-grid .tcul-hire-col:nth-child(-n+2){border-bottom:1px dashed #cbd5e1}.tcul-feature-card{padding:36px 30px 32px}.tcul-hire-card{padding:36px 26px 32px}}.tcul-hire-models{margin-top:36px;margin-bottom:22px;display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:8px 12px;font-size:.95rem}.tcul-hire-models-label{color:#1f2937;font-weight:700;margin-right:4px}.tcul-hire-model-pill{display:inline-flex;align-items:center;padding:4px 14px;background:#fff;border:1px solid rgba(0,0,0,.12);border-radius:50px;color:#374151;font-weight:500;box-shadow:0 1px 3px rgba(0,0,0,.04)}.tcul-hire-model-dot{color:#9ca3af;font-weight:700;margin:0 4px}.tcul-hire-model-item{color:#4b5563;font-weight:500}@media (max-width:991.98px){.tcul-hire-developers-section{padding-top:60px;padding-bottom:60px}.tcul-hire-title{font-size:2.15rem}}@media (max-width:575.98px){.tcul-core-features-section .col:not(:last-child),.tcul-hire-grid .tcul-hire-col:not(:last-child){border-bottom:1px dashed #cbd5e1}.tcul-feature-card{padding:30px 24px 26px}.tcul-floating-actions{bottom:20px;right:18px;gap:10px}.tcul-floating-btn{width:48px;height:48px;font-size:1.35rem}.tcul-floating-tooltip,.tcul-hire-model-dot{display:none}.tcul-hire-card{padding:30px 22px 26px}.tcul-hire-developers-section{padding-top:45px;padding-bottom:45px}.tcul-hire-title{font-size:1.75rem}.tcul-hire-models{flex-direction:column;gap:8px}}
+@media (min-width: 1200px) {
+    .navbar-expand-xl .navbar-nav .nav-link {
+        color: #fff;
+    }
+    .header-sticky-on .navbar-expand-xl .navbar-nav .nav-link {
+        color: #000;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .navbar-expand-xl .navbar-collapse {
+        background: #ffffff !important;
+        border-radius: 0.2rem !important;
+        box-shadow: 0 16px 36px rgba(0, 0, 0, 0.25) !important;
+        padding: 12px 0 20px 0 !important;
+    }
+    .navbar-expand-xl .navbar-collapse .navbar-nav .nav-item {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.08) !important;
+        padding: 10px 24px !important;
+    }
+    .navbar-expand-xl .navbar-collapse .navbar-nav .nav-item:last-child {
+        border-bottom: none !important;
+    }
+    .navbar-expand-xl .navbar-collapse .navbar-nav .nav-link {
+        color: #111827 !important;
+        font-weight: 600 !important;
+        font-size: 1.05rem !important;
+        display: block !important;
+        transition: color 0.2s ease, transform 0.2s ease !important;
+    }
+    .navbar-expand-xl .navbar-collapse .navbar-nav .nav-link:hover,
+    .navbar-expand-xl .navbar-collapse .navbar-nav .nav-link:focus,
+    .navbar-expand-xl .navbar-collapse .navbar-nav .nav-link.active {
+        color: #09b850 !important;
+        transform: translateX(4px);
+    }
+}
+
+/* Navbar Logos: White by default on dark header, Black on sticky white header */
+.tcul-navbar-logo-default {
+    display: block !important;
+}
+
+.tcul-navbar-logo-sticky {
+    display: none !important;
+}
+
+.header-sticky-on .tcul-navbar-logo-default {
+    display: none !important;
+}
+
+.header-sticky-on .tcul-navbar-logo-sticky {
+    display: block !important;
+}
+
+.header-sticky-on .navbar-toggler-animation span {
+    background-color: #000 !important;
+}
+
+/* Header Consultation Button */
+.tcul-header-btn {
+    padding: 8px 16px !important;
+}
+
+/* ==========================================================================
+   TCUL Banner Custom Styles (Hero Section)
+   ========================================================================== */
+
+.tcul-banner-card {
+    position: relative !important;
+    min-height: 580px !important;
+    height: 600px !important;
+}
+
+@media (min-width: 1400px) {
+    .tcul-banner-card {
+        min-height: 600px !important;
+        height: 630px !important;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    .tcul-banner-card {
+        min-height: 570px !important;
+        height: 590px !important;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .tcul-banner-card {
+        min-height: 520px !important;
+        height: 540px !important;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .tcul-banner-card {
+        min-height: auto !important;
+        height: auto !important;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: flex-end !important;
+        padding-bottom: 0 !important;
+        margin-bottom: 0 !important;
+    }
+
+    .tcul-banner-content-wrap {
+        padding-top: 5.5rem !important;
+        padding-bottom: 0 !important;
+        margin-bottom: 0 !important;
+        flex: 1 0 auto !important;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: space-between !important;
+    }
+
+    .tcul-banner-content-wrap > .container {
+        margin-bottom: 0 !important;
+        padding-bottom: 0 !important;
+    }
+
+    .tcul-banner-content-wrap .row {
+        margin-bottom: 0 !important;
+    }
+
+    .tcul-banner-col {
+        text-align: center !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+
+    .tcul-banner-heading {
+        text-align: center !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        margin-bottom: 1.25rem !important;
+    }
+
+    .tcul-banner-btn-wrapper {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        flex-wrap: wrap !important;
+        gap: 12px !important;
+        width: 100% !important;
+        margin-bottom: 1.25rem !important;
+    }
+
+    .tcul-banner-badges-wrapper {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        flex-wrap: wrap !important;
+        gap: 12px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        margin-bottom: 0.5rem !important;
+    }
+}
+
+/* Custom Deep Dark Overlay */
+.tcul-banner-overlay {
+    background: linear-gradient(90deg, rgba(7, 11, 20, 0.94) 0%, rgba(7, 11, 20, 0.86) 38%, rgba(7, 11, 20, 0.48) 72%, rgba(7, 11, 20, 0.2) 100%),
+                linear-gradient(180deg, rgba(4, 7, 14, 0.75) 0%, rgba(4, 7, 14, 0.1) 40%, rgba(4, 7, 14, 0.5) 100%) !important;
+}
+
+/* Banner Heading */
+.tcul-banner-heading {
+    font-size: clamp(2.35rem, 4.3vw, 3.85rem) !important;
+    font-weight: 700 !important;
+    line-height: 1.15 !important;
+    letter-spacing: -0.025em !important;
+    margin-bottom: 1.5rem !important;
+    color: #ffffff !important;
+}
+
+/* Static Persistent Banner Button (Between Heading & Rating Badges) */
+.tcul-banner-static-overlay {
+    pointer-events: none !important;
+}
+
+.tcul-banner-heading-placeholder {
+    font-size: clamp(2.35rem, 4.3vw, 3.85rem) !important;
+    font-weight: 700 !important;
+    line-height: 1.15 !important;
+    letter-spacing: -0.025em !important;
+    margin-bottom: 1.5rem !important;
+    visibility: hidden !important;
+    pointer-events: none !important;
+    user-select: none !important;
+}
+
+.tcul-banner-btn-spacer {
+    height: 52px;
+    margin-bottom: 1.25rem;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.tcul-banner-btn-container {
+    pointer-events: auto !important;
+    margin-bottom: 0;
+}
+
+.tcul-banner-action-btn {
+    pointer-events: auto !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 8px !important;
+    box-shadow: 0 4px 16px rgba(9, 184, 80, 0.35) !important;
+    transition: all 0.25s ease !important;
+}
+
+.tcul-banner-action-btn:hover {
+    /* transform: translateY(-2px) !important; */
+    box-shadow: 0 8px 24px rgba(9, 184, 80, 0.45) !important;
+}
+
+@media (max-width: 991.98px) {
+    .tcul-banner-btn-spacer {
+        height: 48px;
+        margin-bottom: 1rem;
+    }
+}
+
+/* Badges / Rating Buttons Container */
+.tcul-banner-badges-wrapper {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 14px;
+    margin-top: 0.25rem;
+    margin-bottom: 1rem;
+}
+
+/* Rating Button Base */
+.tcul-rating-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 11px;
+    background: #ffffff;
+    padding: 7px 18px;
+    border-radius: 0.2rem;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.22);
+    border: 1px solid rgba(255, 255, 255, 0.9);
+    transition: all 0.25s ease-in-out;
+    cursor: pointer;
+    user-select: none;
+    text-decoration: none !important;
+}
+
+.tcul-rating-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.28);
+    background: #ffffff;
+}
+
+/* Icon Container */
+.tcul-rating-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.tcul-rating-icon svg {
+    display: block;
+    width: 24px;
+    height: 24px;
+}
+
+/* Justdial Logo Badge */
+.tcul-jd-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    background: #edf4fe;
+    border-radius: 50%;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 1;
+    letter-spacing: -0.5px;
+}
+
+.tcul-jd-j {
+    color: #f37023; /* Justdial Orange */
+}
+
+.tcul-jd-d {
+    color: #0076d7; /* Justdial Blue */
+}
+
+/* Rating Info (Score, Stars, Subtext) */
+.tcul-rating-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    line-height: 1.15;
+}
+
+.tcul-rating-top {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 2px;
+}
+
+.tcul-rating-score {
+    font-size: 15px;
+    font-weight: 800;
+    color: #111827;
+}
+
+.tcul-rating-stars {
+    display: inline-flex;
+    align-items: center;
+    gap: 2px;
+    color: #ffb800;
+    font-size: 11px;
+}
+
+.tcul-rating-sub {
+    font-size: 11.5px;
+    font-weight: 500;
+    color: #4b5563;
+    letter-spacing: -0.2px;
+}
+
+/* Mockup Stuck to the Bottom of Banner */
+.tcul-banner-mockup-bottom {
+    position: absolute;
+    bottom: 0;
+    right: 11%;
+    z-index: 3;
+    line-height: 0;
+    pointer-events: none;
+}
+
+.tcul-banner-mockup-img {
+    height: 520px;
+    max-height: 85%;
+    width: auto;
+    display: block;
+    vertical-align: bottom;
+    margin-bottom: 0 !important;
+    filter: drop-shadow(0 18px 36px rgba(0, 0, 0, 0.48));
+    transition: all 0.3s ease;
+}
+
+@media (min-width: 1400px) {
+    .tcul-banner-mockup-bottom {
+        right: 12%;
+        bottom: -1%;
+    }
+    .tcul-banner-mockup-img {
+        height: 540px;
+        max-height: 86%;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    .tcul-banner-mockup-bottom {
+        right: 10%;
+    }
+    .tcul-banner-mockup-img {
+        height: 500px;
+        max-height: 85%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .tcul-banner-mockup-bottom {
+        right: 4%;
+    }
+    .tcul-banner-mockup-img {
+        height: 440px;
+        max-height: 82%;
+    }
+}
+
+/* Mobile Mockup in content flow: Sticky right at the bottom with 0 gap */
+@media (max-width: 991.98px) {
+    .tcul-banner-mockup-mobile-col {
+        margin-top: 1.5rem !important;
+        margin-bottom: 0 !important;
+        padding-bottom: 0 !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        line-height: 0 !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: flex-end !important;
+    }
+
+    .tcul-banner-mockup-mobile-img {
+        max-height: 340px;
+        width: auto;
+        display: block !important;
+        margin: 0 auto !important;
+        margin-bottom: 0 !important;
+        padding-bottom: 0 !important;
+        vertical-align: bottom !important;
+        line-height: 0 !important;
+        filter: drop-shadow(0 15px 25px rgba(0, 0, 0, 0.4));
+    }
+
+    .swiper-pagination.swiper-pagination-line {
+        bottom: 8px !important;
+    }
+}
+
+/* Strict Desktop Reset for Banner */
+@media (min-width: 992px) {
+    .tcul-banner-content-wrap {
+        padding-top: 8rem !important;
+        justify-content: flex-start !important;
+    }
+
+    .tcul-banner-content-wrap > .container {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+
+    .tcul-banner-mockup-mobile-col {
+        display: none !important;
+    }
+
+    .tcul-banner-col {
+        text-align: left !important;
+        display: block !important;
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+
+    .tcul-banner-heading {
+        text-align: left !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        margin-bottom: 2.25rem !important; /* Space between heading and two buttons */
+    }
+
+    .tcul-banner-btn-wrapper {
+        display: flex !important;
+        justify-content: flex-start !important;
+        align-items: center !important;
+        flex-wrap: wrap !important;
+        gap: 14px !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        margin-bottom: 1.5rem !important;
+    }
+
+    .tcul-banner-badges-wrapper {
+        display: inline-flex !important;
+        justify-content: flex-start !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+}
+
+/* Persistent Banner Action Buttons & Ratings Overlay */
+.tcul-banner-persistent-overlay {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    z-index: 5 !important;
+    pointer-events: none !important;
+}
+
+.tcul-banner-persistent-overlay .tcul-banner-action-btn,
+.tcul-banner-persistent-overlay .tcul-rating-btn {
+    pointer-events: auto !important;
+    border-radius: 0.2rem !important;
+}
+
+/* ==========================================================================
+   TCUL Mobile Banner CTA Section (Buttons & Ratings side-by-side below banner)
+   ========================================================================== */
+.tcul-mobile-cta-section {
+    display: none;
+}
+
+@media (max-width: 991.98px) {
+    .tcul-banner-persistent-overlay {
+        display: none !important;
+    }
+
+    .tcul-mobile-cta-section {
+        display: block !important;
+        background: #e6f8ed80 !important;
+        padding: 1.25rem 0.75rem 1.25rem 0.75rem !important;
+        position: relative;
+        z-index: 2;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.05) !important;
+    }
+
+    .tcul-mobile-cta-section .container {
+        max-width: 480px !important;
+        padding-left: 8px !important;
+        padding-right: 8px !important;
+    }
+
+    .tcul-mobile-btn-wrapper {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: stretch !important;
+        gap: 10px !important;
+        margin-bottom: 0.75rem !important;
+        width: 100% !important;
+    }
+
+    .tcul-mobile-btn {
+        width: 100% !important;
+        min-width: 100% !important;
+        max-width: 100% !important;
+        height: 48px !important;
+        min-height: 48px !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        gap: 8px !important;
+        background: #09b850 !important;
+        border: 1px solid #09b850 !important;
+        color: #ffffff !important;
+        font-weight: 600 !important;
+        font-size: 0.9rem !important;
+        padding: 10px 16px !important;
+        border-radius: 0.2rem !important;
+        text-align: center !important;
+        line-height: 1.25 !important;
+        text-decoration: none !important;
+        transition: all 0.2s ease !important;
+        -webkit-tap-highlight-color: transparent !important;
+    }
+
+    .tcul-mobile-btn:hover {
+        background: #079641 !important;
+        border-color: #079641 !important;
+        color: #ffffff !important;
+    }
+
+    .tcul-mobile-btn:active {
+        transform: scale(0.98) !important;
+    }
+
+    .tcul-mobile-btn i {
+        font-size: 0.9rem !important;
+        flex-shrink: 0 !important;
+    }
+
+    .tcul-mobile-btn-text {
+        display: inline-block !important;
+        line-height: 1.2 !important;
+    }
+
+    .tcul-mobile-badges-wrapper {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: stretch !important;
+        gap: 10px !important;
+        width: 100% !important;
+    }
+
+    .tcul-mobile-rating-btn {
+        flex: 1 1 0 !important;
+        width: 50% !important;
+        max-width: 50% !important;
+        min-width: 0 !important;
+        min-height: 52px !important;
+        display: inline-flex !important;
+        align-items: center !important;
+        gap: 8px !important;
+        background: #ffffff !important;
+        border: 1px solid rgba(0, 0, 0, 0.08) !important;
+        border-radius: 0.2rem !important;
+        padding: 7px 8px !important;
+        box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05) !important;
+        justify-content: center !important;
+        text-decoration: none !important;
+        transition: all 0.2s ease !important;
+        -webkit-tap-highlight-color: transparent !important;
+    }
+
+    .tcul-mobile-rating-btn:hover {
+        border-color: rgba(9, 184, 80, 0.35) !important;
+        box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08) !important;
+    }
+
+    .tcul-mobile-rating-btn:active {
+        transform: scale(0.97) !important;
+    }
+
+    .tcul-mobile-rating-btn .tcul-rating-score {
+        font-size: 0.95rem !important;
+        font-weight: 700 !important;
+        color: #111827 !important;
+    }
+
+    .tcul-mobile-rating-btn .tcul-rating-stars {
+        font-size: 8.5px !important;
+        color: #f59e0b !important;
+        gap: 1.5px !important;
+        display: inline-flex !important;
+    }
+
+    .tcul-mobile-rating-btn .tcul-rating-sub {
+        font-size: 9px !important;
+        color: #4b5563 !important;
+        white-space: nowrap !important;
+        display: block !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .tcul-mobile-cta-section {
+        display: none !important;
+    }
+}
+
+/* ==========================================================================
+   TCUL Footer Custom Styles
+   ========================================================================== */
+
+.tcul-footer-heading {
+    color: #09b850 !important;
+    font-size: 1.25rem;
+    font-weight: 700;
+    letter-spacing: -0.2px;
+}
+
+.tcul-footer-subheading {
+    color: #f3f4f6;
+    font-size: 1.05rem;
+    font-weight: 700;
+    letter-spacing: -0.2px;
+}
+
+.tcul-footer-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #09b850;
+    font-size: 1.2rem;
+    flex-shrink: 0;
+}
+
+.tcul-footer-link {
+    color: #e5e7eb !important;
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: 500;
+    transition: color 0.2s ease, transform 0.2s ease;
+    display: inline-block;
+}
+
+.tcul-footer-link:hover {
+    color: #09b850 !important;
+    transform: translateX(3px);
+}
+
+.tcul-footer-text {
+    color: #9ca3af;
+    font-size: 0.92rem;
+    line-height: 1.6;
+}
+
+.tcul-footer-links-list li {
+    line-height: 1.4;
+}
+
+/* Contact Form Card */
+.tcul-footer-form-card {
+    background: #ffffff !important;
+    border-radius: 0.2em;
+    padding: 28px 30px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.35);
+    color: #1f2937;
+}
+
+.tcul-footer-form-title {
+    color: #111827 !important;
+    font-size: 1.35rem;
+    font-weight: 700;
+    letter-spacing: -0.3px;
+}
+
+.tcul-footer-form-desc {
+    color: #4b5563 !important;
+    font-size: 0.85rem;
+    line-height: 1.5;
+}
+
+.tcul-footer-input {
+    background-color: #ffffff !important;
+    border: 1px solid #d1d5db !important;
+    border-radius: 0.2rem !important;
+    font-size: 0.875rem !important;
+    color: #1f2937 !important;
+    padding: 10px 14px !important;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.tcul-footer-input:focus {
+    border-color: #09b850 !important;
+    box-shadow: 0 0 0 3px rgba(75, 132, 248, 0.2) !important;
+    background-color: #ffffff !important;
+    color: #111827 !important;
+}
+
+.tcul-footer-input::placeholder {
+    color: #9ca3af !important;
+}
+
+.tcul-footer-textarea {
+    resize: none;
+    min-height: 90px;
+}
+
+.tcul-footer-logo {
+    height: 32px;
+    width: auto;
+    display: inline-block;
+}
+
+.tcul-footer-copyright {
+    color: #9ca3af;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.tcul-footer-copyright a {
+    color: #d1d5db;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.tcul-footer-copyright a:hover {
+    color: var(--bs-primary, #09b850);
+}
+
+/* ==========================================================================
+   TCUL Rating Section
+   ========================================================================== */
+
+.tcul-rating-section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.tcul-rating-card {
+    background: #ffffff;
+    border: 1px solid #eef2f6;
+    border-radius: 16px;
+    padding: 26px 36px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.tcul-rating-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+@media (min-width: 992px) {
+    .tcul-rating-item {
+        justify-content: center;
+    }
+}
+
+.tcul-rating-icon {
+    width: 38px;
+    height: 38px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.tcul-rating-icon-jd {
+    width: 48px !important;
+    height: 48px !important;
+}
+
+.tcul-rating-stars {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    margin-bottom: 2px;
+}
+
+.tcul-rating-stars i {
+    color: #ffb800;
+    font-size: 13px;
+}
+
+.tcul-rating-subtext {
+    font-size: 0.875rem;
+    color: #6c757d;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.tcul-rating-col-divider {
+    border-right: 1px solid #eef2f6;
+}
+
+@media (max-width: 767.98px) {
+    .tcul-rating-col-divider {
+        border-right: none;
+        border-bottom: 1px solid #eef2f6;
+        padding-bottom: 1.25rem;
+    }
+}
+
+.tcul-rating-cta-title {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 4px;
+}
+
+.tcul-rating-cta-link {
+    color: var(--bs-primary, #09b850);
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    transition: all 0.2s ease;
+}
+
+.tcul-rating-cta-link:hover {
+    color: var(--bs-primary, #09b850);
+    transform: translateX(3px);
+}
+
+/* ==========================================================================
+   TCUL Clients & Skills Section
+   ========================================================================== */
+
+.tcul-client-skills-section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+@media (max-width: 767.98px) {
+    .tcul-client-skills-section {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+}
+
+.tcul-client-text {
+    text-align: center !important;
+    font-size: 0.95rem;
+    color: #4b5563;
+    font-weight: 500;
+}
+
+.tcul-client-swiper {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+.tcul-client-swiper .swiper-slide {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    min-height: 80px !important;
+    height: auto !important;
+    padding: 6px 4px !important;
+}
+
+.tcul-client-logo {
+    height: auto !important;
+    max-height: 80px !important;
+    width: auto !important;
+    max-width: 155px !important;
+    object-fit: contain !important;
+    margin: 0 auto !important;
+    display: block !important;
+    transition: opacity 0.25s ease, transform 0.25s ease !important;
+}
+
+.tcul-client-logo:hover {
+    opacity: 1 !important;
+    transform: scale(1.06) !important;
+}
+
+.tcul-skills-title {
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: #4b5563;
+}
+
+.tcul-counter-number {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #111827;
+    line-height: 1.1;
+}
+
+.tcul-counter-label {
+    font-size: 0.85rem;
+    color: #6c757d;
+    margin-top: 4px;
+}
+
+/* ==========================================================================
+   TCUL Core Features Section
+   ========================================================================== */
+
+.tcul-core-features-section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #e6f8ed;
+}
+
+.tcul-features-heading {
+    font-size: 2.35rem;
+    font-weight: 800;
+    color: #111827;
+    letter-spacing: -0.5px;
+    margin-bottom: 1.75rem;
+}
+
+.inner-container-small{
+    max-width: 100% !important;
+}
+
+.tcul-features-subtitle {
+    color: #6b7280;
+    font-size: 1.05rem;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+}
+
+/* Unified Grid Container with Dotted Outer Border */
+.tcul-core-features-section .row {
+    background: #ffffff;
+    border: 1px dashed #cbd5e1;
+    border-radius: 14px;
+    overflow: hidden;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-top: 0 !important;
+    --bs-gutter-x: 0 !important;
+    --bs-gutter-y: 0 !important;
+}
+
+.tcul-core-features-section .col {
+    padding: 0 !important;
+    margin: 0 !important;
+    display: flex;
+}
+
+/* Individual Feature Cell */
+.tcul-feature-card {
+    position: relative;
+    overflow: hidden;
+    background: #ffffff;
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    padding: 44px 38px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    transform: none !important;
+    transition: background-color 0.25s ease;
+}
+
+/* Subtle Rectangular Grid / Mesh Pattern */
+.tcul-feature-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    z-index: 0;
+    background-size: 24px 24px;
+    background-repeat: repeat;
+    background-image: 
+        linear-gradient(to right, rgba(0, 0, 0, 0.055) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.055) 1px, transparent 1px);
+    -webkit-mask-image: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.5) 40%, rgba(0, 0, 0, 0) 78%);
+    mask-image: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.5) 40%, rgba(0, 0, 0, 0) 78%);
+    transition: opacity 0.3s ease;
+}
+
+.tcul-feature-card:hover {
+    background-color: #fafcfb;
+}
+
+.tcul-feature-card:hover::before {
+    opacity: 1;
+}
+
+.tcul-feature-icon-box,
+.tcul-feature-title,
+.tcul-feature-text {
+    position: relative;
+    z-index: 1;
+}
+
+/* Remove green highlight and lift on active/hover */
+.tcul-feature-card:hover,
+.tcul-feature-card.tcul-feature-card-active {
+    border: none !important;
+    border-color: transparent !important;
+    box-shadow: none !important;
+    transform: none !important;
+}
+
+/* Internal Dotted Separators / Dividers between adjacent cards */
+
+/* Desktop: 3 columns, 2 rows (2 vertical separators, 1 horizontal separator) */
+@media (min-width: 992px) {
+    .tcul-core-features-section .col:nth-child(3n+1),
+    .tcul-core-features-section .col:nth-child(3n+2) {
+        border-right: 1px dashed #cbd5e1;
+    }
+    .tcul-core-features-section .col:nth-child(-n+3) {
+        border-bottom: 1px dashed #cbd5e1;
+    }
+}
+
+/* Tablet: 2 columns, 3 rows (1 vertical separator, 2 horizontal separators) */
+@media (min-width: 576px) and (max-width: 991.98px) {
+    .tcul-core-features-section .col:nth-child(odd) {
+        border-right: 1px dashed #cbd5e1;
+    }
+    .tcul-core-features-section .col:nth-child(-n+4) {
+        border-bottom: 1px dashed #cbd5e1;
+    }
+    .tcul-feature-card {
+        padding: 36px 30px 32px;
+    }
+}
+
+/* Mobile: 1 column, 6 rows (0 vertical separators, 5 horizontal separators) */
+@media (max-width: 575.98px) {
+    .tcul-core-features-section .col:not(:last-child) {
+        border-bottom: 1px dashed #cbd5e1;
+    }
+    .tcul-feature-card {
+        padding: 30px 24px 26px;
+    }
+}
+
+.tcul-feature-icon-box {
+    width: 52px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(9, 184, 80, 0.12);
+    color: #09b850;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    margin-bottom: 22px;
+    transition: all 0.3s ease;
+}
+
+.tcul-feature-card:hover .tcul-feature-icon-box {
+    background: #09b850;
+    color: #ffffff;
+    transform: scale(1.05);
+}
+
+.tcul-feature-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 10px;
+    letter-spacing: -0.2px;
+}
+
+.tcul-feature-text {
+    font-size: 0.95rem;
+    color: #6b7280;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+/* ==========================================================================
+   TCUL Industries We Serve Section
+   ========================================================================== */
+
+.tcul-industries-section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    position: relative;
+    overflow: hidden;
+}
+
+.tcul-industries-heading {
+    font-size: 2.35rem;
+    font-weight: 800;
+    color: #111827;
+    letter-spacing: -0.5px;
+    margin-bottom: 1.75rem;
+}
+
+.tcul-industries-subtitle {
+    color: #6b7280;
+    font-size: 1.05rem;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+}
+
+/* Swiper marquee continuous linear motion */
+.tcul-industries-swiper .swiper-wrapper {
+    -webkit-transition-timing-function: linear !important;
+    -o-transition-timing-function: linear !important;
+    transition-timing-function: linear !important;
+}
+
+/* Industry Card Container with Uniform Height */
+.tcul-industry-card {
+    position: relative;
+    width: 100%;
+    height: 380px;
+    border-radius: 0.2rem;
+    overflow: hidden;
+    background: #111827;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    transition: transform 0.35s ease, box-shadow 0.35s ease;
+    cursor: pointer;
+}
+
+.tcul-industry-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 18px 38px rgba(0, 0, 0, 0.16);
+}
+
+/* Image Wrapper and Uniform Sizing */
+.tcul-industry-img-box {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.tcul-industry-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    transition: transform 0.6s ease;
+}
+
+.tcul-industry-card:hover .tcul-industry-img {
+    transform: scale(1.08);
+}
+
+.tcul-industry-gradient-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.04) 0%, rgba(0, 0, 0, 0.25) 50%, rgba(0, 0, 0, 0.72) 100%);
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+
+/* Card Sticking to the Bottom of Image */
+.tcul-industry-bottom-card {
+    position: absolute;
+    bottom: 14px;
+    left: 14px;
+    right: 14px;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 0.2rem;
+    padding: 14px 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.9);
+    transition: all 0.3s ease;
+    z-index: 2;
+}
+
+.tcul-industry-card:hover .tcul-industry-bottom-card {
+    background: #ffffff;
+    box-shadow: 0 12px 30px rgba(9, 184, 80, 0.2);
+    border-color: rgba(9, 184, 80, 0.35);
+}
+
+.tcul-industry-tag {
+    display: inline-flex;
+    align-items: center;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #09b850;
+    background: rgba(9, 184, 80, 0.12);
+    padding: 4px 10px;
+    border-radius: 50px;
+}
+
+.tcul-industry-title {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 0;
+    letter-spacing: -0.2px;
+}
+
+@media (max-width: 767.98px) {
+    .tcul-industries-section {
+        padding-top: 3.5rem;
+        padding-bottom: 2.5rem;
+    }
+    .tcul-industry-card {
+        height: 330px;
+    }
+    .tcul-industry-bottom-card {
+        bottom: 10px;
+        left: 10px;
+        right: 10px;
+        padding: 12px 14px;
+    }
+}
+
+/* ==========================================================================
+   TCUL UI/UX Design Samples Section
+   ========================================================================== */
+
+.tcul-uiux-section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    position: relative;
+    background: #e6f8ed;
+}
+
+/* Badge with horizontal lines */
+.tcul-uiux-badge-wrap {
+    display: inline-block;
+}
+
+.tcul-uiux-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 0.82rem;
+    font-weight: 700;
+    color: #09b850;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.tcul-uiux-badge-line {
+    width: 24px;
+    height: 2px;
+    background: #09b850;
+    display: inline-block;
+    border-radius: 2px;
+}
+
+/* Heading */
+.tcul-uiux-heading {
+    font-size: 2.75rem;
+    font-weight: 800;
+    color: #0f172a;
+    letter-spacing: -0.8px;
+    line-height: 1.22;
+}
+
+.tcul-uiux-highlight {
+    color: #09b850 !important;
+}
+
+/* Subtitle */
+.tcul-uiux-subtitle {
+    color: #64748b;
+    font-size: 1.05rem;
+    max-width: 100%;
+    line-height: 1.65;
+}
+
+/* 3D Tilt Card */
+.tcul-uiux-card {
+    position: relative;
+    border-radius: 0.2rem;
+    overflow: hidden;
+    transform-style: preserve-3d;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    opacity: 1 !important;
+    filter: none !important;
+    -webkit-filter: none !important;
+    transition: box-shadow 0.4s ease;
+}
+
+.tcul-uiux-card-inner {
+    position: relative;
+    width: 100%;
+    border-radius: 0.2rem;
+    overflow: hidden;
+    transform-style: preserve-3d;
+    background: transparent;
+    border: none;
+    outline: none;
+    opacity: 1 !important;
+    filter: none !important;
+    -webkit-filter: none !important;
+}
+
+.tcul-uiux-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 0.2rem;
+    border: none;
+    outline: none;
+    opacity: 1 !important;
+    filter: none !important;
+    -webkit-filter: none !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    image-rendering: -webkit-optimize-contrast;
+}
+
+/* Ensure no blur or opacity reduction on hover */
+.tcul-uiux-card:hover,
+.tcul-uiux-card-inner:hover,
+.tcul-uiux-img:hover,
+.tcul-uiux-card:hover .tcul-uiux-img,
+.tcul-uiux-card:hover .tcul-uiux-card-inner {
+    opacity: 1 !important;
+    filter: none !important;
+    -webkit-filter: none !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+}
+
+/* Card Themes Matching the Reference Pastel Tones */
+/* .tcul-uiux-card-peach {
+    background: #FFF5EE;
+    border: 1px solid rgba(255, 185, 150, 0.45);
+    box-shadow: 0 14px 35px rgba(255, 175, 130, 0.22);
+} */
+
+/* .tcul-uiux-card-peach:hover {
+    border-color: rgba(255, 140, 80, 0.7);
+    box-shadow: 0 22px 50px rgba(255, 140, 80, 0.32);
+} */
+
+/* .tcul-uiux-card-mint {
+    background: #EDFAF3;
+    border: 1px solid rgba(130, 230, 180, 0.45);
+    box-shadow: 0 14px 35px rgba(9, 184, 80, 0.18);
+} */
+
+/* .tcul-uiux-card-mint:hover {
+    border-color: rgba(9, 184, 80, 0.7);
+    box-shadow: 0 22px 50px rgba(9, 184, 80, 0.3);
+} */
+
+/* .tcul-uiux-card-lavender {
+    background: #F4EDFD;
+    border: 1px solid rgba(200, 175, 255, 0.45);
+    box-shadow: 0 14px 35px rgba(160, 120, 245, 0.22);
+} */
+
+/* .tcul-uiux-card-lavender:hover {
+    border-color: rgba(140, 90, 240, 0.7);
+    box-shadow: 0 22px 50px rgba(140, 90, 240, 0.32);
+} */
+
+@media (max-width: 991.98px) {
+    .tcul-uiux-heading {
+        font-size: 2.15rem;
+    }
+    .tcul-uiux-section {
+        padding-top: 4rem;
+        padding-bottom: 3rem;
+    }
+}
+
+.tcul-about-section {
+    background-color: #e6f8ed;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    position: relative;
+}
+
+.tcul-about-image-wrapper {
+    position: relative;
+    max-width: 520px;
+    margin: 0 auto;
+}
+
+.tcul-about-main-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0.2rem !important;
+    object-fit: cover;
+    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.08) !important;
+    border: 3px solid #ffffff;
+    display: block;
+}
+
+.tcul-about-floating-badge {
+    position: absolute;
+    bottom: -15px;
+    right: -15px;
+    background: #ffffff !important;
+    border-radius: 0.2rem !important;
+    padding: 14px 20px;
+    box-shadow: 0 16px 36px rgba(0, 0, 0, 0.12) !important;
+    border: 1px solid rgba(0, 0, 0, 0.04) !important;
+    z-index: 3;
+    min-width: 220px;
+}
+
+.tcul-about-badge-icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 12px;
+    background-color: #eafaf1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.tcul-about-heading {
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: #111827;
+    line-height: 1.25;
+    letter-spacing: -0.4px;
+}
+
+@media (max-width: 991.98px) {
+    .tcul-about-section {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .tcul-about-floating-badge {
+        position: static;
+        margin-top: 15px;
+        min-width: auto;
+        display: inline-block;
+    }
+
+    .tcul-about-heading {
+        font-size: 1.85rem;
+    }
+}
+
+.tcul-why-us-section{
+    background-color: #e6f8ed;
+}
+
+.tcul-testimonials-section{
+    background-color: #e6f8ed;
+}
+
+/* ==========================================================================
+   TCUL Google Reviews Testimonials Styles
+   ========================================================================== */
+
+.tcul-google-review-card {
+    background: #ffffff !important;
+    border: 1px solid rgba(0, 0, 0, 0.07) !important;
+    border-radius: 0.2rem !important;
+    padding: 1.5rem !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04) !important;
+    transition: transform 0.25s ease, box-shadow 0.25s ease !important;
+}
+
+.tcul-google-review-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.09) !important;
+}
+
+.tcul-review-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.85rem;
+}
+
+.tcul-review-user {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.tcul-review-avatar {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.tcul-review-author {
+    font-size: 0.98rem;
+    font-weight: 700;
+    color: #1f2937;
+    margin-bottom: 0;
+    line-height: 1.25;
+}
+
+.tcul-review-date {
+    display: block;
+    font-size: 0.76rem;
+    color: #6b7280;
+    margin-top: 2px;
+    line-height: 1.2;
+}
+
+.tcul-review-google-icon {
+    width: 22px;
+    height: 22px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.tcul-review-stars {
+    margin-bottom: 0.75rem !important;
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.tcul-review-stars .list-inline-item {
+    margin-right: 0 !important;
+}
+
+.tcul-review-stars i {
+    color: #fbbc04 !important; /* Authentic Google Reviews Yellow */
+    font-size: 14px;
+}
+
+.tcul-review-text {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: #374151;
+    margin-bottom: 0;
+}
+
+/* ==========================================================================
+   TCUL Technologies We Use Section (Tech Stack)
+   ========================================================================== */
+
+.tcul-tech-section {
+    padding-top: 5.5rem;
+    padding-bottom: 5rem;
+    background-color: #e6f8ed;
+    position: relative;
+}
+
+.tcul-tech-badge {
+    color: #09b850 !important;
+    font-size: 0.82rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.tcul-tech-heading {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #111827;
+    letter-spacing: -0.5px;
+    margin-top: 0 !important;
+    margin-bottom: 1.75rem;
+}
+
+.tcul-tech-subtitle {
+    color: #4b5563;
+    font-size: 1.05rem;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+}
+
+/* Tech Card */
+.tcul-tech-card {
+    background: #ffffff;
+    border-radius: 0.2rem;
+    padding: 24px 14px 18px;
+    border: 1px solid rgba(0, 0, 0, 0.04);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    cursor: default;
+}
+
+.tcul-tech-card:hover {
+    transform: translateY(-6px);
+    border-color: #09b850;
+    box-shadow: 0 12px 28px rgba(9, 184, 80, 0.15);
+}
+
+.tcul-tech-icon-wrap {
+    height: 48px;
+    width: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+
+.tcul-tech-icon {
+    max-height: 44px;
+    max-width: 44px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.tcul-tech-card:hover .tcul-tech-icon {
+    transform: scale(1.12);
+}
+
+.tcul-tech-name {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 2px;
+    letter-spacing: -0.2px;
+}
+
+.tcul-tech-type {
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: #6b7280;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    line-height: 1.2;
+}
+
+@media (max-width: 767.98px) {
+    .tcul-tech-section {
+        padding-top: 3.5rem;
+        padding-bottom: 3.5rem;
+    }
+    .tcul-tech-heading {
+        font-size: 2rem;
+    }
+    .tcul-tech-card {
+        padding: 18px 10px 14px;
+    }
+    .tcul-tech-icon-wrap {
+        height: 40px;
+        width: 40px;
+        margin-bottom: 10px;
+    }
+    .tcul-tech-icon {
+        max-height: 36px;
+        max-width: 36px;
+    }
+    .tcul-tech-name {
+        font-size: 0.85rem;
+    }
+    .tcul-tech-type {
+        font-size: 0.68rem;
+    }
+}
+
+/* ==========================================================================
+   TCUL Mobile App Development Services Cards Styles
+   ========================================================================== */
+
+.tcul-service-card {
+    position: relative;
+    height: 390px;
+    border-radius: 0.2rem;
+    overflow: hidden;
+    background-color: #141c2c;
+    background: linear-gradient(180deg, #222d42 0%, #141c2c 45%, #080c14 100%) !important;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    transition: border-color 0.35s ease, box-shadow 0.35s ease;
+    cursor: pointer;
+}
+
+.tcul-service-card:hover,
+.tcul-service-card.tcul-card-active {
+    border-color: rgba(9, 184, 80, 0.5) !important;
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.5), 0 0 20px rgba(9, 184, 80, 0.15) !important;
+}
+
+.tcul-service-img-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 1;
+    -webkit-mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0.45) 45%, rgba(0, 0, 0, 0) 90%);
+    mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0.45) 45%, rgba(0, 0, 0, 0) 90%);
+}
+
+.tcul-service-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.7;
+    transform: scale(1);
+    transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1), opacity 0.3s ease;
+}
+
+.tcul-service-overlay {
+    display: none !important;
+}
+
+/* Caption (Resting State) */
+.tcul-service-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 1.5rem;
+    z-index: 2;
+    transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s;
+}
+
+.tcul-service-tag {
+    display: inline-block;
+    font-size: 0.72rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #fff;
+    background: #09b850;
+    border: 1px solid rgba(9, 184, 80, 0.25);
+    padding: 4px 10px;
+    border-radius: 0.2rem;
+    margin-bottom: 0.75rem;
+}
+
+.tcul-service-title {
+    font-size: 1.18rem;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 1.35;
+    margin-bottom: 0.75rem;
+}
+
+.tcul-service-hint {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.75);
+    transition: color 0.2s ease;
+}
+
+.tcul-service-hint-icon {
+    font-size: 0.85rem;
+    color: #09b850;
+    transition: transform 0.25s ease;
+}
+
+.tcul-service-card:hover .tcul-service-hint-icon {
+    transform: translate(2px, -2px);
+}
+
+/* Hover Content Panel */
+.tcul-service-hover-panel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    background: rgba(11, 15, 23, 0.95);
+    padding: 1.75rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-top: 3px solid #09b850;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(16px);
+    pointer-events: none;
+    transition: opacity 0.3s cubic-bezier(0.16, 1, 0.3, 1), transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), visibility 0.3s;
+}
+
+/* Strict isolation: any card NOT hovered and NOT active MUST be hidden */
+.tcul-service-card:not(:hover):not(.tcul-card-active) .tcul-service-hover-panel {
+    opacity: 0 !important;
+    visibility: hidden !important;
+    transform: translateY(16px) !important;
+    pointer-events: none !important;
+}
+
+.tcul-service-card:not(:hover):not(.tcul-card-active) .tcul-service-caption {
+    opacity: 1 !important;
+    visibility: visible !important;
+    transform: translateY(0) !important;
+}
+
+.tcul-service-card:not(:hover):not(.tcul-card-active) .tcul-service-img {
+    transform: scale(1) !important;
+}
+
+/* Active or hovered card reveals panel */
+.tcul-service-card:hover .tcul-service-hover-panel,
+.tcul-service-card.tcul-card-active .tcul-service-hover-panel {
+    opacity: 1 !important;
+    visibility: visible !important;
+    transform: translateY(0) !important;
+    pointer-events: auto !important;
+}
+
+.tcul-service-card:hover .tcul-service-caption,
+.tcul-service-card.tcul-card-active .tcul-service-caption {
+    opacity: 0 !important;
+    visibility: hidden !important;
+    transform: translateY(-8px) !important;
+}
+
+.tcul-service-card:hover .tcul-service-img,
+.tcul-service-card.tcul-card-active .tcul-service-img {
+    transform: scale(1.08) !important;
+}
+
+/* ==========================================================================
+   TCUL Smooth Scroll & Anchor Offset
+   ========================================================================== */
+html {
+    scroll-behavior: smooth;
+}
+
+[id] {
+    scroll-margin-top: 85px;
+}
+
+/* ==========================================================================
+   TCUL Floating WhatsApp & Call Action Buttons
+   ========================================================================== */
+.tcul-floating-actions {
+    position: fixed;
+    bottom: 110px;
+    right: 20px;
+    z-index: 1040;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+}
+
+.tcul-floating-btn {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff !important;
+    text-decoration: none;
+    font-size: 1.45rem;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.28);
+    transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+    position: relative;
+}
+
+.tcul-floating-btn:hover {
+    transform: scale(1.12) translateY(-2px);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.35);
+    color: #ffffff !important;
+}
+
+.tcul-floating-btn-whatsapp {
+    background-color: #25D366;
+}
+
+.tcul-floating-btn-whatsapp:hover {
+    background-color: #20ba5a;
+}
+
+.tcul-floating-btn-call {
+    background-color: #0d6efd;
+}
+
+.tcul-floating-btn-call:hover {
+    background-color: #0b5ed7;
+}
+
+.tcul-floating-tooltip {
+    position: absolute;
+    right: 64px;
+    background: rgba(17, 24, 39, 0.94);
+    color: #ffffff;
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 6px 14px;
+    border-radius: 6px;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateX(8px);
+    transition: all 0.22s ease;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.18);
+}
+
+.tcul-floating-btn:hover .tcul-floating-tooltip {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+@media (max-width: 575.98px) {
+    .tcul-floating-actions {
+        bottom: 20px;
+        right: 18px;
+        gap: 10px;
+    }
+    .tcul-floating-btn {
+        width: 48px;
+        height: 48px;
+        font-size: 1.35rem;
+    }
+    .tcul-floating-tooltip {
+        display: none;
+    }
+}
+
+/* ==========================================================================
+   TCUL Popup Enquiry Modal
+   ========================================================================== */
+.tcul-enquiry-modal .modal-content {
+    border-radius: 0.2rem;
+    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.35);
+    background: #ffffff;
+    overflow: hidden;
+}
+
+.tcul-enquiry-modal .modal-header {
+    padding: 20px 24px 0 24px;
+}
+
+.tcul-enquiry-modal .btn-close {
+    padding: 10px;
+    background-color: #f3f4f6;
+    border-radius: 50%;
+    opacity: 0.8;
+    transition: all 0.2s ease;
+}
+
+.tcul-enquiry-modal .btn-close:hover {
+    opacity: 1;
+    background-color: #e5e7eb;
+    transform: rotate(90deg);
+}
+
+.tcul-modal-form .tcul-modal-input {
+    border: 1px solid #e5e7eb;
+    background: #f9fafb;
+    border-radius: 0.2rem;
+    padding: 11px 14px;
+    font-size: 0.92rem;
+    color: #111827;
+    transition: all 0.2s ease;
+}
+
+.tcul-modal-form .tcul-modal-input:focus {
+    background: #ffffff;
+    border-color: #09b850;
+    box-shadow: 0 0 0 3px rgba(9, 184, 80, 0.15);
+    outline: none;
+}
+
+.tcul-modal-form .tcul-modal-textarea {
+    resize: none;
+}
+
+.tcul-modal-submit-btn {
+    background-color: #09b850 !important;
+    border-color: #09b850 !important;
+    color: #ffffff !important;
+    padding: 12px 24px !important;
+    border-radius: 0.2rem !important;
+    font-weight: 600 !important;
+    font-size: 0.95rem !important;
+    box-shadow: 0 4px 14px rgba(9, 184, 80, 0.35) !important;
+    transition: all 0.2s ease !important;
+}
+
+.tcul-modal-submit-btn:hover {
+    background-color: #079641 !important;
+    border-color: #079641 !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 8px 20px rgba(9, 184, 80, 0.45) !important;
+}
+
+.tcul-services-section h2{
+    font-size: 2.35rem;
+    font-weight: 800;
+    color: #111827;
+    letter-spacing: -0.5px;
+    margin-bottom: 1.75rem !important;
+}
+
+.tcul-services-section p{
+    color: #6b7280 !important;
+    font-size: 1.05rem;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+}
+
+.tcul-services-section{
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
+}
+
+.navbar-toggler{
+    border-radius: 0px;
+    border-color: #09b850;
+}
+
+.navbar-toggler .navbar-toggler-animation span{
+    background: #09b850;
+}
+
+a.tcul-mobile-btn-1{
+    background-color: transparent !important;
+    border: 1px solid #09b850 !important;
+    color: #09b850 !important;
+}
+
+.tcul-services-section h2{
+    margin-top: 0px !important;
+}
+
+.tcul-testimonials-section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+/* ==========================================================================
+   TCUL Our Approach to Success Section
+   ========================================================================== */
+
+.tcul-approach-section {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: #ffffff;
+    position: relative;
+    overflow: visible;
+}
+
+.tcul-approach-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px 48px;
+    position: relative;
+    align-items: stretch;
+}
+
+/* Heading block (Row 1, Col 1) */
+.tcul-approach-header-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 10px;
+}
+
+.tcul-approach-title {
+    font-size: 2.35rem;
+    font-weight: 800;
+    color: #111827;
+    line-height: 1.25;
+    letter-spacing: -0.5px;
+    margin-bottom: 6px;
+}
+
+.tcul-approach-title-highlight {
+    color: #111827;
+    display: inline-block;
+    position: relative;
+}
+
+.tcul-approach-swoosh {
+    width: 145px;
+    height: 18px;
+    display: block;
+    margin-top: 4px;
+    overflow: visible;
+}
+
+.tcul-approach-swoosh .tcul-swoosh-path {
+    stroke: #09b850;
+    stroke-width: 4.5;
+    stroke-linecap: round;
+}
+
+/* Card Wrap & Cards */
+.tcul-approach-card-wrap {
+    position: relative;
+    height: 100%;
+}
+
+.tcul-approach-card {
+    background: #ffffff;
+    border: 1px solid #edf2f7;
+    border-radius: 0.2rem;
+    padding: 30px 26px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s ease;
+    position: relative;
+    z-index: 2;
+}
+
+.tcul-approach-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.08);
+}
+
+.tcul-approach-card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.tcul-approach-num {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: #09b850;
+    line-height: 1;
+    letter-spacing: -0.3px;
+}
+
+.tcul-approach-icon {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background-color: #eafaf1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.tcul-approach-card:hover .tcul-approach-icon {
+    transform: scale(1.08) rotate(4deg);
+    background-color: #dcf6e7;
+}
+
+.tcul-approach-card-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 10px;
+    line-height: 1.35;
+    letter-spacing: -0.3px;
+}
+
+.tcul-approach-card-text {
+    font-size: 0.92rem;
+    color: #64748b;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+/* Hand-Drawn Connecting Arrows */
+.tcul-approach-arrow {
+    position: absolute;
+    pointer-events: none;
+    z-index: 10;
+    overflow: visible;
+}
+
+.tcul-approach-arrow .tcul-arrow-path,
+.tcul-approach-arrow .tcul-arrow-head {
+    stroke: #09b850;
+    stroke-width: 2.8;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+/* Arrow 1: Between Card 01 and Card 02 (Row 1) */
+.tcul-approach-arrow-1 {
+    right: -42px;
+    top: 24%;
+    width: 58px;
+    height: 34px;
+}
+
+/* Arrow 2: From Card 02 sweeping down toward bottom row */
+.tcul-approach-arrow-2 {
+    right: -36px;
+    top: 48%;
+    width: 60px;
+    height: 145px;
+}
+
+/* Arrow 3: Between Card 03 and Card 04 (Row 2) */
+.tcul-approach-arrow-3 {
+    right: -42px;
+    top: 24%;
+    width: 58px;
+    height: 34px;
+}
+
+/* Arrow 4: Between Card 04 and Card 05 (Row 2 with loop-de-loop) */
+.tcul-approach-arrow-4 {
+    right: -46px;
+    top: 16%;
+    width: 72px;
+    height: 48px;
+}
+
+/* Tablet & Mobile Breakpoints */
+@media (max-width: 991.98px) {
+    .tcul-approach-grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 28px;
+    }
+
+    .tcul-approach-header-block {
+        grid-column: span 2;
+        text-align: center;
+        align-items: center;
+        min-height: auto;
+        margin-bottom: 15px;
+    }
+
+    .tcul-approach-arrow {
+        display: none !important;
+    }
+
+    .tcul-approach-card-5 {
+        grid-column: span 2;
+        max-width: 500px;
+        margin: 0 auto;
+        width: 100%;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .tcul-approach-section {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .tcul-approach-grid {
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+
+    .tcul-approach-header-block {
+        grid-column: auto;
+        margin-bottom: 10px;
+    }
+
+    .tcul-approach-title {
+        font-size: 1.85rem;
+    }
+
+    .tcul-approach-card-5 {
+        grid-column: auto;
+        max-width: none;
+    }
+
+    .tcul-approach-card {
+        padding: 24px 20px;
+        border-radius: 16px;
+    }
+    .hr-line{
+        margin-bottom: 0px !important;
+    }
+}
+.tcul-banner-action-btn-1{
+    background-color: transparent;
+}
+
+a.about-btn-2{
+    border: 1px solid;
+    padding: 8px 16px;
+    border-radius: 0.2rem;
+}
+
+.tcul-portfolio-section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+a.explore-btn{
+    border-radius: 0.2rem;
+}
+
+.features-btm-btn{
+    text-align: center;
+    margin-top: 3em;
+}
+
+.features-btm-btn .tcul-banner-action-btn, .service-cta-btn-wrap .service-cta-btn{
+    border-radius: 0.2rem;
+}
+
+/* ==========================================================================
+   TCUL Hire Dedicated App Developers Section (Mesh Grid Layout)
+   ========================================================================== */
+
+.tcul-hire-developers-section {
+    background-color: #e6f8ed;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    position: relative;
+    overflow: hidden;
+}
+
+.tcul-hire-header {
+    max-width: 100%;
+}
+
+.tcul-hire-eyebrow {
+    display: inline-block;
+    font-size: 0.82rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #606261;
+    margin-bottom: 12px;
+}
+
+.tcul-hire-title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #202124;
+    letter-spacing: -0.5px;
+    line-height: 1.25;
+    margin-bottom: 18px;
+}
+
+.tcul-hire-subtitle {
+    font-size: 1.05rem;
+    line-height: 1.65;
+    color: #4b5563;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+}
+
+.tcul-hire-subtitle {
+    margin-top: 10px;
+}
+
+/* Unified 4-Column Grid Container with Dotted/Dashed Outer Border */
+.tcul-hire-grid {
+    background: #ffffff;
+    border: 1px dashed #cbd5e1;
+    border-radius: 14px;
+    overflow: hidden;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-top: 2rem !important;
+    margin-bottom: 2.5rem !important;
+    --bs-gutter-x: 0 !important;
+    --bs-gutter-y: 0 !important;
+}
+
+.tcul-hire-col {
+    padding: 0 !important;
+    margin: 0 !important;
+    display: flex;
+}
+
+/* Individual Card Cell */
+.tcul-hire-card {
+    position: relative;
+    overflow: hidden;
+    background: #ffffff;
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    padding: 44px 32px 38px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    transform: none !important;
+    transition: background-color 0.25s ease;
+}
+
+.tcul-hire-card:hover {
+    background-color: #fafcfb;
+}
+
+/* Subtle Rectangular Grid / Mesh Pattern inside Card */
+.tcul-hire-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    z-index: 0;
+    background-size: 24px 24px;
+    background-repeat: repeat;
+    background-image: 
+        linear-gradient(to right, rgba(0, 0, 0, 0.055) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.055) 1px, transparent 1px);
+    -webkit-mask-image: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.5) 40%, rgba(0, 0, 0, 0) 78%);
+    mask-image: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.5) 40%, rgba(0, 0, 0, 0) 78%);
+    transition: opacity 0.3s ease;
+}
+
+.tcul-hire-badge,
+.tcul-hire-card-title,
+.tcul-hire-card-text {
+    position: relative;
+    z-index: 1;
+}
+
+/* Badge Icon Container */
+.tcul-hire-badge {
+    width: 44px;
+    height: 44px;
+    border-radius: 8px;
+    background: rgba(9, 184, 80, 0.12);
+    color: #09b850;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.05rem;
+    font-weight: 700;
+    margin-bottom: 22px;
+    transition: all 0.3s ease;
+}
+
+.tcul-hire-card:hover .tcul-hire-badge {
+    background: #09b850;
+    color: #ffffff;
+    transform: scale(1.05);
+}
+
+.tcul-hire-card-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #111827;
+    letter-spacing: -0.2px;
+    margin-bottom: 12px;
+    line-height: 1.35;
+}
+
+.tcul-hire-card-text {
+    font-size: 0.95rem;
+    color: #6b7280;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+/* Dotted Separators / Dividers between adjacent cards */
+/* Desktop: 4 columns in 1 row (3 vertical dotted separators) */
+@media (min-width: 992px) {
+    .tcul-hire-grid .tcul-hire-col:not(:last-child) {
+        border-right: 1px dashed #cbd5e1;
+    }
+}
+
+/* Tablet: 2 columns, 2 rows (1 vertical dotted separator, 1 horizontal dotted separator) */
+@media (min-width: 576px) and (max-width: 991.98px) {
+    .tcul-hire-grid .tcul-hire-col:nth-child(odd) {
+        border-right: 1px dashed #cbd5e1;
+    }
+    .tcul-hire-grid .tcul-hire-col:nth-child(-n+2) {
+        border-bottom: 1px dashed #cbd5e1;
+    }
+    .tcul-hire-card {
+        padding: 36px 26px 32px;
+    }
+}
+
+/* Mobile: 1 column, 4 rows (3 horizontal dotted separators) */
+@media (max-width: 575.98px) {
+    .tcul-hire-grid .tcul-hire-col:not(:last-child) {
+        border-bottom: 1px dashed #cbd5e1;
+    }
+    .tcul-hire-card {
+        padding: 30px 22px 26px;
+    }
+}
+
+/* Engagement Models Bar */
+.tcul-hire-models {
+    margin-top: 36px;
+    margin-bottom: 22px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 8px 12px;
+    font-size: 0.95rem;
+}
+
+.tcul-hire-models-label {
+    color: #1f2937;
+    font-weight: 700;
+    margin-right: 4px;
+}
+
+.tcul-hire-model-pill {
+    display: inline-flex;
+    align-items: center;
+    padding: 4px 14px;
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 50px;
+    color: #374151;
+    font-weight: 500;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+.tcul-hire-model-dot {
+    color: #9ca3af;
+    font-weight: 700;
+    margin: 0 4px;
+}
+
+.tcul-hire-model-item {
+    color: #4b5563;
+    font-weight: 500;
+}
+
+@media (max-width: 991.98px) {
+    .tcul-hire-developers-section {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .tcul-hire-title {
+        font-size: 2.15rem;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .tcul-hire-developers-section {
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+
+    .tcul-hire-title {
+        font-size: 1.75rem;
+    }
+
+    .tcul-hire-models {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .tcul-hire-model-dot {
+        display: none;
+    }
+}
+
+.tcul-faq-section, .tcul-why-us-section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
